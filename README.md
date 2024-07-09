@@ -39,6 +39,9 @@ Google account needed to access Google Colab notebook.
 ### Support
 To creat a small batch query on site:
 ```twig
+import pandas as pd
+import os
+
 try:
   !touch new_batch.txt
 except:
@@ -46,6 +49,7 @@ except:
 os.rename("new_batch.txt", "new_batch.csv")
 column_names=["SMILES","pH"]
 new_batch=pd.read_csv("new_batch.csv", names=column_names)
+
 comp_list = #list of compounds
 pH_list = #list of corresponding pH
 
