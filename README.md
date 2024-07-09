@@ -27,7 +27,7 @@ Currently, efficION is only appropriate for predicting logIE relating to the ESI
 
 #
 ### Accessible
- [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">](https://colab.research.google.com/drive/1t9ki6sLRUjbidTl5rcPJr5BlZCi6TnFT?usp=sharing) <code style="color : grey">to access CCS the efficION platform.</code>
+ [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">](https://colab.research.google.com/drive/1t9ki6sLRUjbidTl5rcPJr5BlZCi6TnFT?usp=sharing) <code style="color : grey">to access the efficION platform.</code>
 <br />
 
 
