@@ -1,4 +1,4 @@
-## efficION <br/> <br/> <br/> <img align = "center" width="700" alt="image" src="https://github.com/mitkeng/efficION/assets/97419520/1bb3418f-9207-4d26-8546-d691a93af168">
+## efficION: ionization efficiency prediction <br/> <br/> <br/> <img align = "center" width="650" alt="image" src="https://github.com/mitkeng/efficION/assets/97419520/1bb3418f-9207-4d26-8546-d691a93af168">
 
 ### Introduction 
 efficION is a python program for predicting mass spectrometry relevant chemical ionization efficiency. Two interacting deep neural network models are implemented for log ionization efficiency (logIE) value prediction and error attenuation; one sequential model (*i.e.*, model 1) predicts logIE while a second sequential model (*i.e.*, model 1) attempts to correct for residual logIE prediction error produced by model 1.
