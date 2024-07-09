@@ -37,7 +37,7 @@ Google account needed to access Google Colab notebook.
 
 #
 ### Support
-To creat a small batch query on site:
+To create a small batch query on site:
 ```twig
 import pandas as pd
 import os
