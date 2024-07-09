@@ -25,4 +25,6 @@ Currently, efficION is only appropriate for predicting logIE relating to the ESI
 #
 ### Requirements
 
-
+#
+### Reference
+Liigand, J., Wang, T., Kellogg, J. et al. Quantification for non-targeted LC/MS screening without standard substances. Sci Rep 10, 5808 (2020). https://doi.org/10.1038/s41598-020-62573-z
