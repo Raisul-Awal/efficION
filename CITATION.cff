@@ -1,0 +1,28 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: efficION
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Mithony
+    family-names: Keng
+    orcid: 'https://orcid.org/0000-0002-9850-0120'
+    affiliation: Michigan State University
+    email: kengmith@msu.edu
+repository-code: >-
+  https://https://github.com/mitkeng/efficION/new/main/CITATION.cff
+url: 'https://github.com/mitkeng/efficION'
+abstract: >-
+  A program for predicting ESI ionization efficiency 
+keywords:
+  - Mass spectrometry
+  - ESI
+  - Ionization efficiency
+  - Machine learning
+license: MIT
+version: '1.0'
+date-released: '2024-07-08'
