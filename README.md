@@ -20,7 +20,7 @@ Currently, efficION is only appropriate for predicting logIE relating to the ESI
 ### Performance
 
 <img align = "left" width="400" alt="focus" src="https://github.com/mitkeng/efficION/assets/97419520/8f8bf4bc-e028-4cb7-9ba9-4897faf6da0f">
-<img align = "center" width="400" alt="focus" src="https://github.com/mitkeng/efficION/assets/97419520/bb441331-f8c2-4f29-93a0-4a888476dffd)">
+<img align = "center" width="400" alt="focus" src="https://github.com/mitkeng/efficION/assets/97419520/bb441331-f8c2-4f29-93a0-4a888476dffd">
 
 
 #
@@ -31,6 +31,9 @@ Google account needed to access Google Colab notebook.
 #
 ### Accessibility
  [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">](https://colab.research.google.com/drive/1t9ki6sLRUjbidTl5rcPJr5BlZCi6TnFT?usp=sharing) <code style="color : grey">to access the efficION platform.</code>
+<img align = "right" width="100" alt="focus" src="https://github.com/mitkeng/efficION/assets/97419520/dba56f1a-cce9-434f-b1c0-7ef836041810">
+
+
 <br />
 
 
