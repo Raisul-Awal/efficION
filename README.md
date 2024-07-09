@@ -15,6 +15,13 @@ Currently, efficION is only appropriate for predicting logIE relating to the ESI
 #
 ### Performance
 
+
+![negative_mode_IE](https://github.com/mitkeng/efficION/assets/97419520/8f8bf4bc-e028-4cb7-9ba9-4897faf6da0f)
+
+![positive_mode_IE](https://github.com/mitkeng/efficION/assets/97419520/bb441331-f8c2-4f29-93a0-4a888476dffd)
+
+
+
 #
 ### Requirements
 
