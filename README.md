@@ -46,6 +46,7 @@ try:
   !touch new_batch.txt
 except:
   pass
+
 os.rename("new_batch.txt", "new_batch.csv")
 column_names=["SMILES","pH"]
 new_batch=pd.read_csv("new_batch.csv", names=column_names)
