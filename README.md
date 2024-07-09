@@ -8,7 +8,7 @@ efficION is a python program for predicting mass spectrometry relevant compound 
 
 #
 ### Functionality
-The program supports single logIE query or batch chemical logIE query. For single query, either a canonical SMILE or chemical name is applicable, along with a required solution pH value; for batch quiery, the following csv file data format is required:
+The program supports single logIE query or batch chemical logIE query. For single query, either a canonical SMILE or chemical name is applicable, along with a required solution pH value; for batch query, the following csv file data format is required:
 || SMILES | pH|
 |--| ------------- | ------------- |
 |1| C1=CNC(=O)NC1=O| 7.2|
