@@ -9,10 +9,17 @@ efficION is a python program for predicting mass spectrometry relevant compound 
 #
 ### Functionality
 The program supports single logIE query or batch chemical logIE query. For single query, either a canonical SMILE or chemical name is applicable, along with a required solution pH value; for batch query, the following csv file data format is required:
-|| SMILES | pH|
+|| SMILE | pH|
 |--| ------------- | ------------- |
 |1| C1=CNC(=O)NC1=O| 7.2|
 |n| ... | ...|
+
+Upon completion of a task a tabulated result similar to the table below is saved to a csv file.
+
+|| Chemical Name| SMILE| logIE|
+|---|------|-----|----|
+|1| 1H-pyrimidine-2,4-dione  |	C1=CNC(=O)NC1=O	|0.49364716|
+|n| ... | ...|...|
 
 Currently, efficION is only appropriate for predicting logIE relating to the ESI ionization technique. 
 
