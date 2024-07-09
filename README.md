@@ -37,7 +37,7 @@ Google account needed to access Google Colab notebook.
 
 #
 ### Support
-To create a small batch query on site:
+To create a small batch query *ad hoc*:
 ```twig
 import pandas as pd
 import os
@@ -52,7 +52,7 @@ column_names=["SMILES","pH"]
 new_batch=pd.read_csv("new_batch.csv", names=column_names)
 
 comp_list = #list of compounds
-pH_list = #list of corresponding pH
+pH_list = #list of corresponding pH values
 
 new_batch['SMILES'] = comp_list
 new_batch['pH'] = pH_list
