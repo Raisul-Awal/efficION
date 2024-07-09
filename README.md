@@ -23,6 +23,7 @@ Upon completion of a task a tabulated result similar to the table below is saved
 
 Currently, efficION is only appropriate for predicting logIE relating to the ESI ionization technique. 
 
+
 #
 ### Performance
 
@@ -34,6 +35,25 @@ Currently, efficION is only appropriate for predicting logIE relating to the ESI
 ### Requirement
 Google account needed to access Google Colab notebook.
 
+#
+### Support
+To creat a small batch query on site:
+```twig
+try:
+  !touch new_batch.txt
+except:
+  pass
+os.rename("new_batch.txt", "new_batch.csv")
+column_names=["SMILES","pH"]
+new_batch=pd.read_csv("new_batch.csv", names=column_names)
+comp_list = #list of compounds
+pH_list = #list of corresponding pH
+
+new_batch['SMILES'] = comp_list
+new_batch['pH'] = pH_list
+
+new_batch.to_csv("new_batch.csv", index=False)
+```
 
 #
 ### Accessibility
