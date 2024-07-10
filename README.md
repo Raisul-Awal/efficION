@@ -68,9 +68,6 @@ new_batch.to_csv("new_batch.csv", index=False)
 
 <br />
 
-#
-### Acknowledgement
-[Merz research group](https://github.com/merzlab) 
 
 #
 ### Reference
