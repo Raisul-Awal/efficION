@@ -37,27 +37,25 @@ Google account needed to access Google Colab notebook.
 
 #
 ### Support
-To create a small batch query *ad hoc*:
+To create a small batch query csv input file *ad hoc*:
 ```twig
 import pandas as pd
-import os
 
 try:
-  !touch new_batch.txt
+  !touch small_batch.csv
 except:
   pass
 
-os.rename("new_batch.txt", "new_batch.csv")
 column_names=["SMILES","pH"]
-new_batch=pd.read_csv("new_batch.csv", names=column_names)
+small_batch=pd.read_csv("small_batch.csv", names=column_names)
 
-comp_list = #list of compounds
-pH_list = #list of corresponding pH values
+comp_list = #list of compounds -> ["C(=O)=O", "O"]
+pH_list = #list of corresponding pH values -> [2.7, 7.2]
 
-new_batch['SMILES'] = comp_list
-new_batch['pH'] = pH_list
+small_batch['SMILES'] = comp_list
+small_batch['pH'] = pH_list
 
-new_batch.to_csv("new_batch.csv", index=False)
+small_batch.to_csv("small_batch.csv", index=False)
 ```
 
 #
