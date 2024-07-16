@@ -1,3 +1,5 @@
+[![python](https://img.shields.io/badge/Python-3.9-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org) [![tensorflow](https://img.shields.io/badge/TensorFlow-1.12-FF6F00.svg?style=flat&logo=tensorflow)](https://www.tensorflow.org) ![user](https://img.shields.io/badge/GoogleColab-black?style=flat&logo=googlecolab) ![user](https://img.shields.io/badge/Userfriendly-1.0-sgreen?) 
+
 ## efficION: ionization efficiency prediction <br/> <br/> <br/> <img align = "center" width="650" alt="image" src="https://github.com/mitkeng/efficION/assets/97419520/1bb3418f-9207-4d26-8546-d691a93af168">
 
 ### Introduction 
