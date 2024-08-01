@@ -10,7 +10,7 @@ efficION is a python program for predicting mass spectrometry relevant compound 
 
 #
 ### Functionality
-The program supports single logIE query or batch chemical logIE query. For single query, either a canonical SMILE or chemical name is applicable, along with a required solution pH value; for batch query, the following csv file data format is required:
+The program supports single logIE query or batch chemical logIE queries. For single query, either a canonical SMILE or chemical name is applicable, along with a required solution pH value; for batch queries, the following csv file data format is required:
 || SMILES| pH|
 |--| ------------- | ------------- |
 |1| C1=CNC(=O)NC1=O| 7.2|
@@ -39,7 +39,7 @@ Google account needed to access Google Colab notebook.
 
 #
 ### Support
-To create a small batch query csv input file *ad hoc*:
+To create a small batch queries csv input file *ad hoc*:
 ```twig
 import pandas as pd
 
